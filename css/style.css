@@ -1,0 +1,525 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Anek Odia;
+    
+
+}
+.header_container{
+    background-image: url(../img/How-Creative-Design-Agencies-Benefit-your-Business-1080x675.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.fixed_header{
+    background-color: gray;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    
+}
+.logo{
+    width:150px;
+    height: 50px;
+    padding-left: 40px;
+}
+a{
+    text-decoration: none;
+    float: right;   
+    padding-right: 30px;
+    padding-top: 15px;
+    color: wheat;
+    transition: 0.5s;
+}
+a:hover{
+    cursor: pointer;
+    border-bottom: 5px solid brown;
+}
+.overlay{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+}
+.content{
+     position: absolute;
+     top: 50%; 
+     left: 50%;
+     transform: translate(-50%  ,  -50% );
+     text-align: center;
+     color: white;
+}
+h1{
+    font-size: 60px;
+}
+.btn1 , .btn2{
+    margin-top: 10px;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+}
+.btn2{
+    background-color:chocolate;
+}
+.btn1:hover , .btn2:hover{
+    opacity: 0.5;
+    transition: 1s;
+}
+h2{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 50px;
+}
+hr{
+    width: 250px;
+    margin-left: 40%;
+    border: 5px solid brown;
+}
+.fully1{
+    display: inline;
+    float: left;
+    width: 350px;
+    height: 250px;
+    border: 1px solid black;
+    margin: 70px 0 100px 70px;
+    text-align: center;
+    position: relative;
+    
+}
+.icon{
+    color: #6191F8;
+    font-size: 40px;
+    margin: 20px 0 20px;
+}
+.p1{
+    margin:10px 0 10px 0 ;
+    word-spacing: 5px;
+    color: gray;
+}
+.sec2{
+    color:#6191F8;
+    text-decoration: none;
+    position: absolute;
+    right: 30%;
+}
+.fully1::after {
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width:0;
+    height:50%;
+    background-color: brown;
+    transition: 1s;
+    z-index: -1;
+}
+.fully1:hover::after {
+    width:100%;
+    height: 100%;
+}
+.fully1:hover  h3 ,.fully1:hover .p1 {
+    Color : white ;
+}
+.featured_work{
+    width: 100%;
+    height: 1000px;
+    margin-top: 500px;
+    background-color:rgba(155, 90, 44, 0.5);
+    
+}
+table{
+    margin-left: 100px;
+}
+table td{
+    transition: 1s;
+    position: relative;
+}
+caption{
+    padding-top: 60px;
+    font-size: 40px;
+    font-weight: 500px;
+}
+td img{
+    padding: 50px;
+    width: 300px;
+    height: 200px;
+    transition: 1s;
+}
+table tr td::after {
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width:0;
+    height:50%;
+    background-color: brown;
+    opacity: .5;
+    transition: 1s;
+}
+table tr td:hover::after {
+    width:100%;
+    height: 100%;
+}
+.td-hover{
+    position: absolute;
+    color: black;
+    visibility: hidden;
+    margin: -230px 0 0 150px;
+}
+table tr td:hover .td-hover{
+    visibility: visible;
+    z-index: 5;
+}
+.td-hover .td-icon , .td-hover p{
+    display: block; 
+    color:mediumblue;
+    font-size: 30px;
+    font-weight: 400;
+}
+.offers{
+    display: inline;
+    float: left;
+    width: 350px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 70px 0 70px 70px;
+    text-align: center;
+    position: relative;
+}
+.offers::after  {
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width:0;
+    height:50%;
+    background-color: brown;
+    transition: 1s;
+    z-index: -1;
+}
+.offers:hover::after {
+    width:100%;
+    height: 100%;
+}
+.offers:hover  h3 ,.offers:hover .p1 {
+    Color : white ;
+}
+.offers .icon{
+    display: inline;
+    float: left;
+    padding: 10px 20px;
+}
+.offers h3{
+    display: inline;
+    float: left;
+    padding-top:50px ;
+}
+.offers .p1{
+    display: block;
+    float: left;
+}
+.def{
+    display: block;
+    overflow: auto;
+    float: left;
+}
+.left{
+    display: inline;
+    float: left;
+}
+.left p{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    width: 600px;
+}
+.left ul li{
+    margin-top: 20px;
+    margin-left: 50px;
+    list-style: none;
+}
+.fa-check-circle{
+    color: #6191F8;
+}
+.right{
+    display: inline;
+    position: relative;
+    float: right;
+    overflow: auto;
+}
+.right img{
+    width: 500px;
+    height: 400px;
+    margin: 20px 50px;
+}
+.right-icons{
+text-align: center;
+}
+.fa-circle:hover{
+   color: brown;
+}
+.bg{
+    background-image: url(../img/digital-photo-professional-express.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    margin-top: 1400px;
+}
+.overlay-content{
+    height: 50vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    overflow: auto;
+    z-index:5;
+}
+.overlay-content .content-icons{
+    display: inline;
+    float: left;
+}
+.content-icons{
+    font-size: 20px;
+    margin: 50px 0 0 180px;
+    color: white;
+}
+.content-icons .fas {
+    color: brown;
+    font-size: 35px;
+    padding-left: 25px;
+}
+.content-icons h2{
+    margin: 5px 0 ;
+}
+
+.Basic{
+    color: gray;
+    float: left;
+    border: 1px solid gray;
+    text-align: center;
+    height: 250px;
+    width: 300px;
+    margin: 50px 0 0 100px;
+    transition: 2s;
+    font-size: 25px;
+    position: relative;
+    word-spacing: 5px;
+}
+.Basic strong{
+    display: block;
+    padding-top: 20px;
+    color: brown;
+}
+.Basic b{
+    width: 80px;
+    height: 80px;
+    color: brown;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-weight: bold;
+    text-align: center;
+}
+.Basic button{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid brown;
+}
+.Basic::after  {
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:0;
+    background-color: brown;
+    transition: 1s;
+    z-index: -1;
+}
+.Basic:hover::after {
+    width:100%;
+    height: 100%;
+    color: white;
+}
+.Basic:hover  strong ,.Basic:hover p ,.Basic:hover b{
+    Color : white ;
+}
+.dev-bg{
+    background-image: url(../img/digital-photo-professional-express.jpg);
+    display: block;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+    width: 100%;
+    margin-top: 400px;
+}
+.overlay-content{
+    height: 50vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    overflow: auto;
+}
+.dev-def {
+    color: white;
+    float: left;
+    text-align: center;
+    height: 250px;
+    width: 400px;
+    margin: 50px 0 0 200px;
+    position: relative;
+}
+.dev-def b{
+    display: block;
+    font-size: 30px;
+    font-weight: lighter;
+    color: brown;
+}
+.dev-img{
+    display: inline;
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+}
+.team-content{
+    margin-left: 100px;
+}
+.team-member{
+    display: inline;
+    width: 300px;
+    height: 400px;
+    background-color: brown;
+    float: left;
+    margin: 50px;
+    position: relative;
+}
+.team-content .team-member img{
+    width: 250px;
+    height: 300px;
+    display: block;
+    padding: 25px;
+}
+.team-member strong ,.team-member b{
+    display: block;
+    text-align: center;
+}
+.team-member::after {
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width:0;
+    height:50%;
+    background-color: brown;
+    opacity: .5;
+    transition: 1s;
+    z-index: 3;
+}
+.team-member:hover::after {  
+    width:100%;
+    height: 100%;
+}
+.team-member:hover  strong ,.team-member:hover p {
+    Color : white ;
+    transition: 1s;
+    z-index: 5;
+}
+.hidden-icon{
+    position: absolute;
+    letter-spacing: 20px;
+    margin: -380px 0 0 250px;
+    font-size: 30px;
+    color: #6191F8;
+    visibility: hidden;
+}
+.team-member:hover .hidden-icon{
+    visibility: visible;
+    z-index: 5;
+}
+.recent-news {
+    margin-top: 150px;
+}
+ .news-content{
+    margin: 100px 0 0 180px;
+}
+.news{
+    width: 350px;
+    height: 500px;
+}
+.news-content .news{
+    display: inline;
+    float: left;
+}
+.news img{
+    width: 300px;
+    height: 350px;
+}
+.news p{
+    width: 300px;
+}
+.news i , .news a{
+    color: #6191F8;
+    font-size: 20px;
+    text-decoration: none;
+}
+.news a{
+    float: left;
+}
+.news-content .news::after{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:0;
+    background-color: brown;
+    transition: 1s;
+    z-index: 5;
+}
+.news-content .news:hover::after {
+    width:100%;
+    height: 100%;
+    z-index: 5;
+}
+.footer{
+    background-color: brown;
+    position: relative;
+    margin-top: 650px;
+    height: 400px;
+    overflow: auto;
+}
+.footer .footer-content img{
+    width: 250px;
+    height: 200px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.footer-content .icons{
+    margin: 300px 0 0 400px;
+}
+.footer-content i{
+    color:blue;
+    float: left;
+    text-align: center;
+    margin: 20px 50px 50px 0;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    transition: 2s;
+    font-size: 25px;
+    word-spacing: 5px;
+}
+.footer-content p{
+    display: block;
+    float: left;
+    position: absolute;
+    margin: 70px 0 0 100px;
+}
